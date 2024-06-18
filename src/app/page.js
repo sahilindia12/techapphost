@@ -23,10 +23,11 @@ export default function page() {
    
    </div>
 
- <div  className="  sm:mt-5 mx-5 px-[33px] pt-[25%] p-2 overflow-hidden  border-2  rounded-md shadow-lg "> 
- <button onClick={''} className=' text-orange-500 '>   < ContentCopyIcon/></button>
-   
- <p className=' lg:text-[22px]'>
+ <div  className="   sm:mt-5 lg:mx-5 px-[33px] pt-[5%] p-2 overflow-hidden  border-2  rounded-md shadow-lg "> 
+ 
+   <div className=' flex justify-center'> <button onClick={''} className=' text-orange-500 '>   < ContentCopyIcon/></button>
+   </div>
+ <p className=' pt-[22%] lg:text-[22px]'>
  तुम्हारी मोहब्बत ने हमें बेपनाह दर्द दिया है,
 मगर खुशी इस बात की है कि हमने इसे सहा है।
 <br/>
