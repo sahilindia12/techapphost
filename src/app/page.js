@@ -3,13 +3,25 @@
 
 import React from 'react'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import sad from '@/app/componet/sad';
+
+import Link from 'next/link';
+import { toast } from 'react-toastify';
 export default function page() {
   return (
     <div className=" xl:mx-5 sm:mx-3">
 
+      <button onClick={()=>toast.success("hello moto")}>tost</button>
 
+<Link href={'./sayari/sadsayari'}>go sad</Link>
+<Link href={'./sayari/bewafasayari'}>go bewafa</Link>
+<Link href={'./sayari/brithdaysayari'}>go brithday</Link>
 
+<Link href={'./story/hindikahani'}>go story </Link>
+<Link href={'./story/kahanigilhari'}>go gilhari </Link>
+<Link href={'./story/khajanakahani'}>go khajana </Link>
+<button><Link href={'./sayari/lovesyari'}>go love</Link></button> <br/>
+
+<button><Link href={'./sayari/attitudesayari'}>go attitude</Link></button>
 
         <div className=' flex justify-center'><h1 className='  lg:text-[22px] text-orange-500'>hisndi best saysri</h1></div>
     {/* <div  className=" flex justify-center "><h1> <span className="  text-[44px]">हिंदी </span> <span className=" text-[44px] text-orange-400">सायरी</span> </h1></div> */}
