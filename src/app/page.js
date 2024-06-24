@@ -17,6 +17,8 @@ export default function page() {
 <Link href={'./sayari/brithdaysayari'}>go brithday</Link>
 
 <Link href={'./story/hindikahani'}>go story </Link>
+<Link href={'./story/hindikahani3'}>go science </Link>
+<Link className=' bg-red-400' href={'./story/hindikahani4'}>go science </Link>
 <Link href={'./story/kahanigilhari'}>go gilhari </Link>
 <Link href={'./story/khajanakahani'}>go khajana </Link>
 <button><Link href={'./sayari/lovesyari'}>go love</Link></button> <br/>
