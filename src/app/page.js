@@ -12,16 +12,10 @@ export default function page() {
 
       <button onClick={()=>toast.success("hello moto")}>tost</button>
 
-<Link href={'./sayari/sadsayari'}>go sad</Link>
-<Link href={'./sayari/bewafasayari'}>go bewafa</Link>
-<Link href={'./sayari/brithdaysayari'}>go brithday</Link>
+      <Link  href={'./page1'}>go 1</Link>
 
-<Link href={'./story/hindikahani'}>go story </Link>
-<Link href={'./story/hindikahani3'}>go science </Link>
-<Link className=' bg-red-400' href={'./story/hindikahani4'}>go science </Link>
-<Link href={'./story/kahanigilhari'}>go gilhari </Link>
-<Link href={'./story/khajanakahani'}>go khajana </Link>
-<button><Link href={'./sayari/lovesyari'}>go love</Link></button> <br/>
+      <Link  href={'./page2'}>go 2</Link>
+      <h1>this is first page in next js projext </h1>
 
 <button><Link href={'./sayari/attitudesayari'}>go attitude</Link></button>
 

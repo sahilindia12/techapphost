@@ -35,16 +35,16 @@ const Foter = () => {
           </div>
           <div className=" sm:mx-12 ml-8 ">
           <h1 className=" text-3xl mt-2 text-gray-50">web languse</h1>
-          <Link href={'#'} className="hover:text-gray-50 ">html</Link> <br></br>
-          <Link href={'#'} className="hover:text-gray-50 ">css</Link> <br></br>
-          <Link href={'#'} className="hover:text-gray-50 ">js</Link> <br></br>
-          <Link href={'#'} className="hover:text-gray-50 ">bootstrap</Link> <br></br>
+          <Link href={'#'} className=" hover:text-green-400 ">html</Link> <br></br>
+          <Link href={'#'} className=" hover:text-green-400 ">css</Link> <br></br>
+          <Link href={'#'} className=" hover:text-green-400 ">js</Link> <br></br>
+          <Link href={'#'} className=" hover:text-green-400 ">bootstrap</Link> <br></br>
           </div>
 
           
 
 </div> 
-<p className='block text-center text-white m-4 p-1'>this power by sahil india copy right go from my websire now</p>
+<p className='block text-center  text-green-400 m-4 p-1'>this power by sahil india copy right go from my websire now</p>
         </div>
     );
 };
