@@ -64,14 +64,15 @@ const Navbar = () => {
      
       <NavbarLinks className='   sm:bg-slate-100 hidden' isOpen={isOpen}>
 
-  <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/">
-          {/* <NavbarLink>About</NavbarLink> */} हिंदी कहानिया
+  <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="../">
+          {/* <NavbarLink>About</NavbarLink> */} next.js 
         </Link>
         <Link className='  lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/movie/newmov">
-          {/* <NavbarLink>About</NavbarLink> */}new सायरी
+          {/* <NavbarLink>About</NavbarLink> */}react.js
+
         </Link>
         <Link className='  lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/">
-          {/* <NavbarLink>About</NavbarLink> */}sad सायरी 
+          {/* <NavbarLink>About</NavbarLink> */}java script
         </Link>
   
       
