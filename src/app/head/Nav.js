@@ -2,7 +2,8 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import { useState } from 'react';
-import AppsIcon from '@mui/icons-material/Apps';
+import { IoIosHome } from "react-icons/io";
+
 import { Lora } from "next/font/google";
 
 const NavbarContainer = styled.div`
@@ -57,12 +58,12 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarContainer className='0 rounded-sm shadow-md   bg-slate-50'> <div  className=" flex justify-center "><h1> <span className="  text-[44px]">Code </span> <span className=" text-[44px] text-green-400">Solution</span> </h1></div>
+    <NavbarContainer className='0   rounded-sm shadow-md   bg-slate-50'> <div  className=" flex justify-center "><h1> <span className="  text-[44px]">Code </span> <span className=" text-[44px] text-green-400">Solution</span> </h1></div>
       <Link href="/" >
         <NavbarLink className=' text-base no-underline' ><label style={headingStyle} className={roboto.className} class='  '></label></NavbarLink>
       </Link>
      
-      <NavbarLinks className='   sm:bg-slate-100 hidden' isOpen={isOpen}>
+      <NavbarLinks className='   sm:bg-slate-100   ' isOpen={isOpen}>
 
   <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="../">
           {/* <NavbarLink>About</NavbarLink> */} next.js 
@@ -80,7 +81,7 @@ const Navbar = () => {
       
       </NavbarLinks>
 
-      <button className='  text-white md:hidden sm:block   '  onClick={toggleNavbar}><AppsIcon className=' text-green-500 size-10'/>
+      <button className='  text-white md:hidden sm:block   '  onClick={toggleNavbar}><IoIosHome className=' text-red-500 size-10'/>
       </button>
 
     
