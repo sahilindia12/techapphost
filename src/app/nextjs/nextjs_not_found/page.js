@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { toast } from 'react-toastify';
+import { IoIosCopy } from 'react-icons/io';
 export default function page() {
     const code =`  
      
@@ -35,7 +36,9 @@ RewriteRule ^(.*)$ $1.html [NC,L]
     
   return (
     <div>
-  
+
+<Link href={'../'}>home</Link>
+  <br/>
    <div className=' flex justify-center m-4'>
     <h1 className='  p-2 rounded-md text-green-400'>next js deploy after refresh page not found react</h1>
    </div>
@@ -86,18 +89,17 @@ We will have to do this so that our error can be corrected.
   </div>
       <div className=' flex justify-center'><h2 className=' text-green-400'> how to add  .htaccess code in  file </h2></div>
 
-<div className=' bg-slate-400 sm:mx-6 lg:mx-[25vw] rounded-md shadow-lg'>
-<div  className=' flex   justify-center '  > <button className=' my-10' onClick={handleCopy}>
-        {copied ?  <ContentCopyIcon className='  size-10 text-green-500'></ContentCopyIcon> : <ContentCopyIcon className=' text-red-500'></ContentCopyIcon>}
-      </button></div>
-    <div className=' flex justify-center'>
-   
-    <pre className=' text-green-400 lg:text-[22px]'>
-        {code}
-    </pre>
-    </div>
-</div>
 
+ 
+
+     <div className=' p-3  rounded-md  lg:mx-[23vw] bg-slate-900'>
+     <div className='  flex justify-end'>
+   <IoIosCopy onClick={()=>handleCopy(code)} className=' text-white size-7'/>
+     </div>
+     <pre className=' lg:text-2xl mx-10 text-white'>{code}</pre>
+     </div>
     </div>
   )
 }
+
+

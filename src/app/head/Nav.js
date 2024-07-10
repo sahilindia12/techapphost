@@ -65,7 +65,7 @@ const Navbar = () => {
      
       <NavbarLinks className='   sm:bg-slate-100   ' isOpen={isOpen}>
 
-  <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="../">
+  <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/">
           {/* <NavbarLink>About</NavbarLink> */} next.js 
         </Link>
         <Link className='  lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/movie/newmov">

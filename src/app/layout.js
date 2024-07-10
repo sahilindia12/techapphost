@@ -20,12 +20,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <Navbar/>
-    <div className="  mx-10">
+
  
         {children}
         
         
-    </div>
+
     <Foter/>
         <ToastContainer/>
         </body>

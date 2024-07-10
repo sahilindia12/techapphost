@@ -9,6 +9,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify';
 import { IoIosCopy } from "react-icons/io";
+import { useRouter } from 'next/navigation';
 export default function page() {
     const code =`  
      
@@ -25,19 +26,22 @@ git commit -m "Add new files to new-folder"
     
     `
 
-    const code3=`git push -u origin master
+    const code3=`git push -u origin 
 
     `
 
     const code4=`
-     git remote remove origin main
+     git remote remove origin 
     `
 
+const code5=`
+ git add .
+`
+const code6=` git status
+`
 
 
-
-
-
+const router=useRouter()
     const [copied, setCopied] = useState(false);
 
     const handleCopy = async (cod) => {
@@ -53,7 +57,10 @@ git commit -m "Add new files to new-folder"
     
   return (
     <div>
-  
+
+<Link href={'../'}>home</Link>
+
+  <br/>
    <div className=' flex justify-center m-4'>
     <h1 className='  p-2 rounded-md text-green-400'>How to add existing folder to GitHub repository</h1>
    </div>
@@ -120,6 +127,23 @@ We can solve this error in some ways, let us know how to do it.
      </div>
      <span className=' text-white'>{code}</span>
      </div>
+
+     <br/>
+     <div className=' p-3  rounded-md  lg:mx-[23vw] bg-slate-900'>
+     <div className='  flex justify-end'>
+   <IoIosCopy onClick={()=>handleCopy(code5)} className=' text-white size-7'/>
+     </div>
+     <span className=' text-white'>{code5}</span>
+     </div>
+
+     <br/>
+
+     <div className=' p-3  rounded-md  lg:mx-[23vw] bg-slate-900'>
+     <div className='  flex justify-end'>
+   <IoIosCopy onClick={()=>handleCopy(code6)} className=' text-white size-7'/>
+     </div>
+     <span className=' text-white'>{code6}</span>
+     </div>
 <br/>
      <div className=' p-3  rounded-md  lg:mx-[23vw] bg-slate-900'>
      <div className='  flex justify-end'>
@@ -127,7 +151,12 @@ We can solve this error in some ways, let us know how to do it.
      </div>
      <pre className=' text-white'>{code1}</pre>
      </div>
+
+    
+
+   
 <br/>
+
 
 <div className=' flex justify-center'><h4 className=' text-green-300'>git command exiting folder upload to github server</h4></div>
   <div className=' mx-10'></div>
@@ -151,6 +180,9 @@ We can solve this error in some ways, let us know how to do it.
      </div>
      <pre className=' text-white'>{code3}</pre>
      </div>
+
+
+
 
     </div>
   )
