@@ -13,7 +13,8 @@ export default  function  page() {
       <Link href={'./nextjs/nextjs_not_found'}>next js</Link>   
 
       <Link href={'./ch'}>ch</Link>   
-
+      <Link href={'./map'}>map</Link>   
+      <Link href={'./nextjs/nextjs_api'}>api next js</Link>   
       <br/>
 
 

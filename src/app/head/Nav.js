@@ -58,7 +58,7 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarContainer className='0   rounded-sm shadow-md   bg-slate-50'> <div  className=" flex justify-center "><h1> <span className="  text-[44px]">Code </span> <span className=" text-[44px] text-green-400">Solution</span> </h1></div>
+    <NavbarContainer className='0   rounded-sm shadow-md   bg-slate-50'> <div  className=" flex justify-center "><h1> <span className=" sm:text-[33px]  text-[44px]">Code </span> <span className=" text-[44px] sm:text-[33px] text-green-400">Solution</span> </h1></div>
       <Link href="/" >
         <NavbarLink className=' text-base no-underline' ><label style={headingStyle} className={roboto.className} class='  '></label></NavbarLink>
       </Link>
