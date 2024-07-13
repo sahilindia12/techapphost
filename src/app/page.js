@@ -14,10 +14,15 @@ export default  function  page() {
 
       <Link href={'./ch'}>ch</Link>   
       <Link href={'./map'}>map</Link>   
+
+
       <Link href={'./nextjs/nextjs_api'}>api next js</Link>   
       <br/>
 
+      <Link href={'./api'}>api</Link>   <br/>
 
+      
+      <Link href={'./javasript/jsarry'}>api</Link>   <br/>
       <Link href={'./github/git'}>How to add existing folder to GitHub repository </Link>
     </div>
   )
