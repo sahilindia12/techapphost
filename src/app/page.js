@@ -21,7 +21,7 @@ export default  function  page() {
 
       <Link href={'./api'}>api</Link>   <br/>
 
-      
+      <Link href={'reactjs/reactjsinputget'}>react js</Link>
       <Link href={'./javasript/jsarry'}>api</Link>   <br/>
       <Link href={'./github/git'}>How to add existing folder to GitHub repository </Link>
     </div>
