@@ -76,7 +76,7 @@ const router=useRouter()
   return (
     <div>
 
-<Link href={'../'}>home</Link>
+
 
   <br/>
    <div className=' flex justify-center m-4'>
@@ -88,7 +88,7 @@ const router=useRouter()
 <div  className=" p-2 overflow-hidden border-2  rounded-md shadow-lg flex justify-center"> 
    
    
-   <img className=' w-[63vw] ' src="../reactjs.png" alt="How to add existing folder to GitHub repository" />
+   <img className=' w-[63vw] sm:w-[99vw] ' src="../reactjs.png" alt="How to add existing folder to GitHub repository" />
    
    
    </div>
@@ -143,7 +143,7 @@ Let us see how to get the value of input with a functional component in react js
 <br/>
 <div className=' flex justify-center'>
 
-<img className=' w-[63vw] ' src="../codeimg.png" alt="How to add existing folder to GitHub repository" />
+<img className=' w-[63vw] sm:w-[99vw] ' src="../codeimg.png" alt="How to add existing folder to GitHub repository" />
 
 </div>
     </div>

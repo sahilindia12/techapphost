@@ -62,7 +62,7 @@ const router=useRouter()
 
   <br/>
    <div className=' flex justify-center m-4'>
-    <h1 className='  p-2 rounded-md text-green-400'>How to add existing folder to GitHub repository</h1>
+    <h1 className='  p-2 rounded-md text-green-400'>How to connect MongoDB Atlas with Node js using Mongoose</h1>
    </div>
   <div className='  grid sm:grid-cols-1 lg:grid-cols-2  gap-4'>
 <div>
